@@ -1,0 +1,239 @@
+[!SILIQ!]
+
+- file:   .siliq 
+- date:   2023/01/06 
+- author: @mirusausiliq 
+
+[!SILIQ!]
+
+# BASIC SYNTAX OF SILIQ #
+
+## Chapter 01 Heading ##
+
+# Heading 01 #            # Normal 
+## Heading 02 ##
+### Heading 03 ###
+#### Heading 04 ####
+##### Heading 05 #####
+
+# Heading 01 #            # Book 
+  ## Heading 02 ##
+    ### Heading 03 ###
+      #### Heading 04 ####
+        ##### Heading 05 #####
+    
+
+## Chapter 02 Horizontal Line ##
+
+  [:hori:]  # Code... 
+  --------  # Default...
+
+## Chapter 03 Quote ##
+
+  > Quote 01
+  >> Quote 02
+  >>> Quote 03
+  >>>> Qoute 04 
+  >>>>> Qoute 05
+
+## Chapter 04 List ##
+
+  1. 01. 001. 0001. 00001.
+  2. 02. 002. 0002. 00002.
+  3. 03. 003. 0003. 00003.
+
+  I.   i.
+  II.  ii.
+  III. iii.
+
+  A. a.
+  B. b.
+  C. c.
+
+  - + * @ $ % ^
+  - + * @ $ % ^
+  - + * @ $ % ^
+
+  [-] # Not yet to do.
+  [o] # Finish.
+  [x] # Not yet finish.
+
+## Chapter 05 Table ##
+
+  A     | B      | C  
+  -----:|--------|:-----
+  Right | Center | Left
+  a01   | b01    | c01
+  a02   | b02    | c02
+  a03   | b03    | c03 
+
+      A     B      C 
+  01  a01   b01    c01 
+  02  a02   b02    c02 
+  03  a03   b03    c03 
+
+
+## Chapter 06 Command ##
+
+  SILIQ is the best! # Yeah indeed...
+
+## Chapter 06 Special Feature ##
+
+    abc          # text 
+   :abd:         # emoji 
+   [abc]         # [...]
+   {abc}         # {...}
+   (abc)         # (...)
+  [:abc:]        # code[:<function>:]
+  [!abc!]        # initial 
+
+  [abc <- :bol]  # bold
+  [abc <- :ita]  # italic
+  [abc <- :del]  # deleted
+  [abc <- :udl]  # underline
+  [abc <- :spo]  # spoiler
+  [abc <- :sup]  # supcase
+  [abc <- :sub]  # subcase
+  [abc <- :color.text(rgb(0, 0, 0))]
+  [abc <- :color.background(rgb(0, 0, 0))]
+  [abc <- :rub <- def]
+
+  [:url: <- https://blog.mirusausiliq.com]
+  [:img: <- https://blog.mirusausiliq.com/img.gif]
+  [:aud: <- https://blog.mirusausiliq.com/vid.mp4]
+  [:emb: <- https://blog.mirusausiliq.com/maps]
+
+  ... To be continue (LateX, Code, Git, Bash...)
+
+## Chapter 07 Other ##
+
+  ...   
+  <name>
+  {name}
+  [name]
+
+  [!SILIQ.init!]
+  [!SILIQ.note!]
+  [!SILIQ.code!]
+  [!SILIQ.git!] 
+  [!SILIQ.data!]
+
+## Chapter 08 SILIQ Assembly ##
+
+  var var_name: var_type = var_value
+  function function_name(parameter01: type, ...) {
+    statement...
+  }
+
+  set <var_name> as <var_type> = <var_value>
+
+  function <function_name>(<param01>, <param02>, ...) {
+    <statements...>
+  } 
+
+  class ClassName {
+    statement...
+  }
+
+  struct StructName {
+    statement...
+  }
+
+  if (condition) {
+    statement...
+  } else if (condition) {
+    statement...
+  } else {
+    statement...
+  }
+
+  switch (condition) {
+    case (condition) {
+      ...
+    } case (condition) {
+      ...
+    } case (condition) {
+      ...
+    } default {
+      ...
+    }
+  }
+
+  public: 
+  private:
+
+  short /2
+  long  *2
+
+  number.integer
+        .float
+        .boolean
+        .complex
+  char 
+  string
+
+  list 
+  array
+  vector
+  metrix
+  tuple
+  enum 
+  dictionary
+
+  list 
+  object
+
+[!SILIQ!|Linguistics]
+
+(...)
+{...}
+[...]
+<...>
+
+...-...-...-...
+
+c - consonant 
+v - vowel 
+
+   {pre}...
+        ...{post}
+{circum}...{circum}
+        ...{in}...
+
+   <root>
+   <pre>...
+        ...<post>
+<circum>...<circum>
+        ...<in>
+
+The cowboy's cow is over there.
+
+The cowboy's cow, is, over there. 
+The, cowboy's, cow. 
+is.
+over, there.
+
+nou. noun
+prn. pronoun
+vrb. verb
+adj. adjective
+adv. adverb
+cnj. conjunction
+pst. (pre)position 
+ntj. interjection 
+
+art. article 
+ptc. particle 
+
+sg. - singular  
+pl. - plural 
+
+mas. - masculine 
+fem. - feminine
+neu. - neutral
+non. - none 
+
+(o boaji) - [nou. -> sg. mas. non.]
+
+(o salikaka) -> token() -> [nou. >> sg. mas.]
+
